@@ -56,6 +56,9 @@ class _SenatorPageState extends State<SenatorPage> {
 
   @override
   Widget build(BuildContext context) {
+    final screenWidth = MediaQuery.of(context).size.width;
+    final screenHeight = MediaQuery.of(context).size.height;
+
     return Scaffold(
       body: RefreshIndicator(
         color: Color(0xff003876),
@@ -99,13 +102,13 @@ class _SenatorPageState extends State<SenatorPage> {
                 Column(
                   children: [
                     Padding(
-                      padding: EdgeInsets.only(top: 60),
+                      padding: EdgeInsets.only(top: screenHeight * 0.1),
                       child: Center(
                         child: CircleAvatar(
-                          radius: 80,
+                          radius: screenWidth * 0.2,
                           backgroundColor: Color(0xff003876),
                           child: Padding(
-                            padding: const EdgeInsets.all(10),
+                            padding: EdgeInsets.all(screenWidth * 0.025),
                             child: ClipOval(
                               child: Image.asset(photo),
                             ),
@@ -114,58 +117,76 @@ class _SenatorPageState extends State<SenatorPage> {
                       ),
                     ),
                     Padding(
-                      padding: EdgeInsets.only(top: 20),
-                      child: Text(name,
-                          style: TextStyle(
-                              fontSize: 24,
-                              fontWeight: FontWeight.bold,
-                              color: Color(0xff003876))),
+                      padding: EdgeInsets.only(top: screenHeight * 0.03),
+                      child: Text(
+                        name,
+                        style: TextStyle(
+                          fontSize: screenWidth * 0.08,
+                          fontWeight: FontWeight.bold,
+                          color: Color(0xff003876),
+                        ),
+                      ),
                     ),
                     Padding(
-                      padding: EdgeInsets.only(top: 10),
-                      child: Text("($mandate)",
-                          style: TextStyle(
-                              fontSize: 18, color: Color(0xff003876))),
+                      padding: EdgeInsets.only(top: screenHeight * 0.01),
+                      child: Text(
+                        "($mandate)",
+                        style: TextStyle(
+                          fontSize: screenWidth * 0.04,
+                          color: Color(0xff003876),
+                        ),
+                      ),
                     ),
                     Padding(
-                      padding: EdgeInsets.only(top: 75),
-                      child: Text("Poslanecký klub",
-                          style: TextStyle(
-                              fontSize: 22,
-                              fontWeight: FontWeight.bold,
-                              color: Color(0xff003876))),
+                      padding: EdgeInsets.only(top: screenHeight * 0.1),
+                      child: Text(
+                        "Poslanecký klub",
+                        style: TextStyle(
+                          fontSize: screenWidth * 0.05,
+                          fontWeight: FontWeight.bold,
+                          color: Color(0xff003876),
+                        ),
+                      ),
                     ),
                     Padding(
-                      padding: EdgeInsets.only(top: 10),
-                      child: Text(club,
-                          style: TextStyle(
-                              fontSize: 18, color: Color(0xff003876))),
+                      padding: EdgeInsets.only(top: screenHeight * 0.01),
+                      child: Text(
+                        club,
+                        style: TextStyle(
+                          fontSize: screenWidth * 0.04,
+                          color: Color(0xff003876),
+                        ),
+                      ),
                     ),
                     Padding(
-                      padding: EdgeInsets.only(top: 100),
+                      padding: EdgeInsets.only(top: screenHeight * 0.1),
                       child: GestureDetector(
                         onTap: () async {
                           await launchUrl(Uri.parse(web));
                         },
                         child: Container(
-                          padding: EdgeInsets.all(10),
+                          padding: EdgeInsets.all(screenWidth * 0.025),
                           decoration: BoxDecoration(
-                              color: Color(0xff003876),
-                              borderRadius: BorderRadius.circular(8)),
+                            color: Color(0xff003876),
+                            borderRadius: BorderRadius.circular(8),
+                          ),
                           child: Text(
                             "Zjistit více informací",
-                            style: TextStyle(color: Colors.white, fontSize: 18),
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: screenWidth * 0.04,
+                            ),
                           ),
                         ),
                       ),
                     ),
                     Padding(
-                      padding: EdgeInsets.only(top: 225),
+                      padding: EdgeInsets.only(top: screenHeight * 0.2),
                       child: Text(
                         "Aktualizace: $release",
                         style: TextStyle(
                           color: Color(0xff003876),
-                          fontSize: 16,
+                          fontSize: screenWidth * 0.03,
                         ),
                       ),
                     ),
