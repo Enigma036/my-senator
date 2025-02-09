@@ -1,0 +1,653 @@
+{
+    "releaseDate": "07.02.2025",
+    "senators": [
+      {
+        "name": "MUDr. Věra Procházková",
+        "district": 1,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub ANO 2011",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=356",
+        "photo": "assets/img/senators/1.jpg"
+      },
+      {
+        "name": "Mgr. Jana Mračková Vildumetzová",
+        "district": 2,
+        "mandate": "21.09.2024 - 21.09.2030",
+        "club": "Senátorský klub ANO 2011",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=370",
+        "photo": "assets/img/senators/2.jpg"
+      },
+      {
+        "name": "prof. Dr. Ing. Miroslav Plevný",
+        "district": 3,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub Starostové a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=336",
+        "photo": "assets/img/senators/3.jpg"
+      },
+      {
+        "name": "Mgr. Jan Paparega",
+        "district": 4,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=357",
+        "photo": "assets/img/senators/4.jpg"
+      },
+      {
+        "name": "MVDr. Přemysl Rabas",
+        "district": 5,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub SEN 21 a Piráti",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=315",
+        "photo": "assets/img/senators/5.jpg"
+      },
+      {
+        "name": "MUDr. Ivo Trešl",
+        "district": 6,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub Starostové a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=337",
+        "photo": "assets/img/senators/6.jpg"
+      },
+      {
+        "name": "JUDr. Daniela Kovářová",
+        "district": 7,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátoři nezařazení do klubu",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=358",
+        "photo": "assets/img/senators/7.jpg"
+      },
+      {
+        "name": "Ing. Mgr. Miroslav Kroc",
+        "district": 8,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub Starostové a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=461",
+        "photo": "assets/img/senators/8.jpg"
+      },
+      {
+        "name": "Ing. Lumír Aschenbrenner",
+        "district": 9,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=275",
+        "photo": "assets/img/senators/9.jpg"
+      },
+      {
+        "name": "Ing. Tomáš Jirsa, MBA",
+        "district": 10,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=171",
+        "photo": "assets/img/senators/10.jpg"
+      },
+      {
+        "name": "Jan Látka",
+        "district": 11,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub ANO 2011",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=260",
+        "photo": "assets/img/senators/11.jpg"
+      },
+      {
+        "name": "MUDr. Bc. Tomáš Fiala, MBA",
+        "district": 12,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=339",
+        "photo": "assets/img/senators/12.jpg"
+      },
+      {
+        "name": "MUDr. Marek Slabý",
+        "district": 13,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=359",
+        "photo": "assets/img/senators/13.jpg"
+      },
+      {
+        "name": "Bc. Zbyněk Sýkora, MBA",
+        "district": 14,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=463",
+        "photo": "assets/img/senators/14.jpg"
+      },
+      {
+        "name": "Ing. Jaroslav Chalupský",
+        "district": 15,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=340",
+        "photo": "assets/img/senators/15.jpg"
+      },
+      {
+        "name": "Jiří Oberfalzer",
+        "district": 16,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=172",
+        "photo": "assets/img/senators/16.jpg"
+      },
+      {
+        "name": "Pavel Fischer",
+        "district": 17,
+        "mandate": "21.09.2024 - 21.09.2030",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=319",
+        "photo": "assets/img/senators/17.jpg"
+      },
+      {
+        "name": "Petr Štěpánek",
+        "district": 18,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub Starostové a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=341",
+        "photo": "assets/img/senators/18.jpg"
+      },
+      {
+        "name": "JUDr. Hana Kordová Marvanová",
+        "district": 19,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=362",
+        "photo": "assets/img/senators/19.jpg"
+      },
+      {
+        "name": "prof. Ing. Jiří Drahoš, DrSc.",
+        "district": 20,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub Starostové a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=313",
+        "photo": "assets/img/senators/20.jpg"
+      },
+      {
+        "name": "Mgr. Václav Láska",
+        "district": 21,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub SEN 21 a Piráti",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=278",
+        "photo": "assets/img/senators/21.jpg"
+      },
+      {
+        "name": "prof. MUDr. Jan Pirk, Dr.Sc.",
+        "district": 22,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=361",
+        "photo": "assets/img/senators/22.jpg"
+      },
+      {
+        "name": "Mgr. Vladimíra Ludková",
+        "district": 23,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=465",
+        "photo": "assets/img/senators/23.jpg"
+      },
+      {
+        "name": "David Smoljak",
+        "district": 24,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub Starostové a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=334",
+        "photo": "assets/img/senators/24.jpg"
+      },
+      {
+        "name": "Mgr. Jiří Růžička",
+        "district": 25,
+        "mandate": "24.09.2022 - 24.09.2028",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=298",
+        "photo": "assets/img/senators/25.jpg"
+      },
+      {
+        "name": "prof. Mgr. Dr. Miroslav Bárta",
+        "district": 26,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub Starostové a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=466",
+        "photo": "assets/img/senators/26.jpg"
+      },
+      {
+        "name": "Miroslava Němcová",
+        "district": 27,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=342",
+        "photo": "assets/img/senators/27.jpg"
+      },
+      {
+        "name": "Ing. Jarmila Smotlachová",
+        "district": 28,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=363",
+        "photo": "assets/img/senators/28.jpg"
+      },
+      {
+        "name": "MUDr. Ondřej Štěrba",
+        "district": 29,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub ANO 2011",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=467",
+        "photo": "assets/img/senators/29.jpg"
+      },
+      {
+        "name": "Mgr. Adéla Šípová",
+        "district": 30,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub SEN 21 a Piráti",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=343",
+        "photo": "assets/img/senators/30.jpg"
+      },
+      {
+        "name": "Mgr. Martin Krsek",
+        "district": 31,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub SEN 21 a Piráti",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=364",
+        "photo": "assets/img/senators/31.jpg"
+      },
+      {
+        "name": "Ing. Jan Schiller",
+        "district": 32,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub ANO 2011",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=468",
+        "photo": "assets/img/senators/32.jpg"
+      },
+      {
+        "name": "Ing. Zbyněk Linhart",
+        "district": 33,
+        "mandate": "03.10.2020 - 03.10.2026",
+        "club": "Senátorský klub Starostové a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=281",
+        "photo": "assets/img/senators/33.jpg"
+      },
+      {
+        "name": "Ing. Michael Canov",
+        "district": 34,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub Starostové a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=300",
+        "photo": "assets/img/senators/34.jpg"
+      },
+      {
+        "name": "Bc. Lena Mlejnková",
+        "district": 35,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub Starostové a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=483",
+        "photo": "assets/img/senators/35.jpg"
+      },
+      {
+        "name": "Jiří Vosecký",
+        "district": 36,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub Starostové a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=282",
+        "photo": "assets/img/senators/36.jpg"
+      },
+      {
+        "name": "Ing. Tomáš Czernin",
+        "district": 37,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=301",
+        "photo": "assets/img/senators/37.jpg"
+      },
+      {
+        "name": "Ondřej Lochman",
+        "district": 38,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub Starostové a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=470",
+        "photo": "assets/img/senators/38.jpg"
+      },
+      {
+        "name": "Ing. Jan Sobotka",
+        "district": 39,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub Starostové a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=311",
+        "photo": "assets/img/senators/39.jpg"
+      },
+      {
+        "name": "MUDr. Bohuslav Procházka",
+        "district": 40,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub KDU-ČSL a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=365",
+        "photo": "assets/img/senators/40.jpg"
+      },
+      {
+        "name": "JUDr. Ing. Zdeněk Hraba, Ph.D.",
+        "district": 41,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=324",
+        "photo": "assets/img/senators/41.jpg"
+      },
+      {
+        "name": "Mgr. Pavel Kárník",
+        "district": 42,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub Starostové a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=344",
+        "photo": "assets/img/senators/42.jpg"
+      },
+      {
+        "name": "Mgr. Miluše Horská",
+        "district": 43,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub KDU-ČSL a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=240",
+        "photo": "assets/img/senators/43.jpg"
+      },
+      {
+        "name": "Mgr. Jan Tecl, MBA",
+        "district": 44,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=325",
+        "photo": "assets/img/senators/44.jpg"
+      },
+      {
+        "name": "JUDr. Jan Holásek, LL.M.",
+        "district": 45,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub SEN 21 a Piráti",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=345",
+        "photo": "assets/img/senators/45.jpg"
+      },
+      {
+        "name": "Petr Fiala",
+        "district": 46,
+        "mandate": "24.09.2022 - 24.09.2028",
+        "club": "Senátorský klub KDU-ČSL a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=355",
+        "photo": "assets/img/senators/46.jpg"
+      },
+      {
+        "name": "Mgr. Martin Červíček",
+        "district": 47,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=326",
+        "photo": "assets/img/senators/47.jpg"
+      },
+      {
+        "name": "Mgr. Jan Grulich",
+        "district": 48,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=346",
+        "photo": "assets/img/senators/48.jpg"
+      },
+      {
+        "name": "Ing. Jaromíra Vítková",
+        "district": 49,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub KDU-ČSL a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=302",
+        "photo": "assets/img/senators/49.jpg"
+      },
+      {
+        "name": "Mgr. Bc. David Šimek",
+        "district": 50,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub KDU-ČSL a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=474",
+        "photo": "assets/img/senators/50.jpg"
+      },
+      {
+        "name": "Ing. Josef Klement",
+        "district": 51,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub KDU-ČSL a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=347",
+        "photo": "assets/img/senators/51.jpg"
+      },
+      {
+        "name": "RNDr. Miloš Vystrčil",
+        "district": 52,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=243",
+        "photo": "assets/img/senators/52.jpg"
+      },
+      {
+        "name": "Hana Žáková",
+        "district": 53,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub Starostové a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=328",
+        "photo": "assets/img/senators/53.jpg"
+      },
+      {
+        "name": "Mgr. Tomáš Třetina",
+        "district": 54,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=348",
+        "photo": "assets/img/senators/54.jpg"
+      },
+      {
+        "name": "doc. MgA. Tomáš Töpfer",
+        "district": 55,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=194",
+        "photo": "assets/img/senators/55.jpg"
+      },
+      {
+        "name": "Mgr. Róbert Šlachta",
+        "district": 56,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub ANO 2011",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=477",
+        "photo": "assets/img/senators/56.jpg"
+      },
+      {
+        "name": "MUDr. Karel Zitterbart, Ph.D.",
+        "district": 57,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub Starostové a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=349",
+        "photo": "assets/img/senators/57.jpg"
+      },
+      {
+        "name": "Mgr. Jiří Dušek, Ph.D.",
+        "district": 58,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=303",
+        "photo": "assets/img/senators/58.jpg"
+      },
+      {
+        "name": "doc. Břetislav Rychlík",
+        "district": 59,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=478",
+        "photo": "assets/img/senators/59.jpg"
+      },
+      {
+        "name": "PhDr. Zdeněk Papoušek",
+        "district": 60,
+        "mandate": "18.01.2025 - 10.10.2026",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=288",
+        "photo": "assets/img/senators/60.jpg"
+      },
+      {
+        "name": "MUDr. Lumír Kantor, Ph.D.",
+        "district": 61,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub KDU-ČSL a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=304",
+        "photo": "assets/img/senators/61.jpg"
+      },
+      {
+        "name": "Mgr. František Jura, MBA, LL.M.",
+        "district": 62,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub ANO 2011",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=479",
+        "photo": "assets/img/senators/62.jpg"
+      },
+      {
+        "name": "RNDr. Jitka Seitlová",
+        "district": 63,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub KDU-ČSL a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=63",
+        "photo": "assets/img/senators/63.jpg"
+      },
+      {
+        "name": "MUDr. Ladislav Václavec",
+        "district": 64,
+        "mandate": "24.09.2022 - 24.09.2028",
+        "club": "Senátorský klub ANO 2011",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=305",
+        "photo": "assets/img/senators/64.jpg"
+      },
+      {
+        "name": "prof. PhDr. Stanislav Balík, Ph.D.",
+        "district": 65,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=480",
+        "photo": "assets/img/senators/65.jpg"
+      },
+      {
+        "name": "Marek Ošťádal",
+        "district": 66,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub Starostové a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=351",
+        "photo": "assets/img/senators/66.jpg"
+      },
+      {
+        "name": "Ivana Váňová, MBA",
+        "district": 67,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub KDU-ČSL a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=366",
+        "photo": "assets/img/senators/67.jpg"
+      },
+      {
+        "name": "Ing. Tomáš Navrátil",
+        "district": 68,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub ANO 2011",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=481",
+        "photo": "assets/img/senators/68.jpg"
+      },
+      {
+        "name": "RNDr. Helena Pešatová",
+        "district": 69,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub Starostové a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=352",
+        "photo": "assets/img/senators/69.jpg"
+      },
+      {
+        "name": "Ing. Zdeněk Nytra",
+        "district": 70,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=307",
+        "photo": "assets/img/senators/70.jpg"
+      },
+      {
+        "name": "Bc. Martin Bednář, MBA",
+        "district": 71,
+        "mandate": "21.09.2024 - 21.09.2030",
+        "club": "Senátorský klub ANO 2011",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=371",
+        "photo": "assets/img/senators/71.jpg"
+      },
+      {
+        "name": "doc. MUDr. Ondřej Šimetka, Ph.D.",
+        "district": 72,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=353",
+        "photo": "assets/img/senators/72.jpg"
+      },
+      {
+        "name": "MUDr. Mgr. Zdeněk Matušek, MBA",
+        "district": 73,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub ANO 2011",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=367",
+        "photo": "assets/img/senators/73.jpg"
+      },
+      {
+        "name": "Ing. Petr Vícha",
+        "district": 74,
+        "mandate": "21.09.2024 - 21.09.2030",
+        "club": "Senátorský klub ANO 2011",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=206",
+        "photo": "assets/img/senators/74.jpg"
+      },
+      {
+        "name": "Ing. Ondřej Feber",
+        "district": 75,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub ANO 2011",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=134",
+        "photo": "assets/img/senators/75.jpg"
+      },
+      {
+        "name": "Mgr. Jana Zwyrtek Hamplová",
+        "district": 76,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátoři nezařazení do klubu",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=368",
+        "photo": "assets/img/senators/76.jpg"
+      },
+      {
+        "name": "Jiří Čunek",
+        "district": 77,
+        "mandate": "21.09.2024 - 21.09.2030",
+        "club": "Senátorský klub KDU-ČSL a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=207",
+        "photo": "assets/img/senators/77.jpg"
+      },
+      {
+        "name": "Ing. Tomáš Goláň",
+        "district": 78,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub ODS a TOP 09",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=312",
+        "photo": "assets/img/senators/78.jpg"
+      },
+      {
+        "name": "Ing. Eva Rajchmanová",
+        "district": 79,
+        "mandate": "01.10.2022 - 01.10.2028",
+        "club": "Senátorský klub KDU-ČSL a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=369",
+        "photo": "assets/img/senators/79.jpg"
+      },
+      {
+        "name": "doc. RNDr. PhDr. Oldřich Hájek, Ph.D., MBA",
+        "district": 80,
+        "mandate": "28.09.2024 - 28.09.2030",
+        "club": "Senátorský klub ANO 2011",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=482",
+        "photo": "assets/img/senators/80.jpg"
+      },
+      {
+        "name": "Josef Bazala",
+        "district": 81,
+        "mandate": "10.10.2020 - 10.10.2026",
+        "club": "Senátorský klub KDU-ČSL a nezávislí",
+        "web": "https://www.senat.cz/senatori/index.php?lng=cz&ke_dni=6.2.2025&O=15&par_3=354",
+        "photo": "assets/img/senators/81.jpg"
+      }
+    ]
+  }
